@@ -4,20 +4,16 @@
 </p>
 <p align="center">
     <a href="https://www.gratipay.com/Shields/">
-        <img src="http://img.shields.io/gratipay/shields.svg"
+        <img src="https://img.shields.io/gratipay/team/shields.svg"
              alt="Gratipay">
     </a>
     <a href="https://npmjs.org/package/gh-badges">
-        <img src="http://img.shields.io/npm/v/gh-badges.svg"
+        <img src="https://img.shields.io/npm/v/gh-badges.svg"
              alt="npm version">
     </a>
     <a href="https://travis-ci.org/badges/shields">
-        <img src="http://img.shields.io/travis/badges/shields.svg"
+        <img src="https://img.shields.io/travis/badges/shields.svg"
              alt="build status">
-    </a>
-    <a href="https://david-dm.org/badges/shields">
-        <img src="https://david-dm.org/badges/shields.svg"
-             alt="dependency status">
     </a>
 </p>
 <p align="center"><sup><strong>An image server for legible and concise information. Our <a href="http://shields.io/">Homepage</a> | <a href="https://twitter.com/shields_io">Twitter</a></strong></sup></p>
@@ -26,6 +22,10 @@
 * **[CONTRIBUTING](CONTRIBUTING.md)** – project contribution guidelines.
 * **[SPECIFICATION](spec/SPECIFICATION.md)** – spec for the visual design of Shields badges.
 * **[LICENSE](LICENSE.md)** – public domain dedication.
+
+Make your own badges [here][badges]! (Quick guide: `https://img.shields.io/badge/left-right-f39f37.svg`.)
+
+[badges]: <http://shields.io/#your-badge>
 
 ## Solving the problem
 Many GitHub repositories sport badges for things like:
@@ -71,8 +71,10 @@ What kind of metadata can you convey using badges?
 ## Services using the Shields standard
 * [Badger](https://github.com/badges/badgerbadgerbadger)
 * [badges2svg](https://github.com/bfontaine/badges2svg)
+* [Codacy](https://www.codacy.com)
 * [Code Climate](https://codeclimate.com/changelog/510d4fde56b102523a0004bf)
 * [Coveralls](https://coveralls.io/)
+* [Forkability](http://basicallydan.github.io/forkability/)
 * [Gemnasium](http://support.gemnasium.com/forums/236528-general/suggestions/5518400-use-svg-for-badges-so-they-still-look-sharp-on-r)
 * [GoDoc](https://godoc.org/)
 * [PHPPackages](https://phppackages.org)
@@ -84,3 +86,11 @@ What kind of metadata can you convey using badges?
 * [Travis CI](https://github.com/travis-ci/travis-ci/issues/630#issuecomment-38054967)
 * [Version Badge](http://badge.fury.io/)
 * [VersionEye](https://www.versioneye.com/)
+
+# Legal
+
+All assets and code are under the [CC0 LICENSE](LICENSE.md) and in the public
+domain unless specified otherwise.
+
+The assets in `logo/` are trademarks of their respective companies and are under
+their terms and license.
